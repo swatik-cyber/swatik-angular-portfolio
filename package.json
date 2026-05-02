@@ -1,12 +1,12 @@
 {
   "name": "portfolio-frontend",
   "version": "1.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "build:prod": "ng build --configuration production"
-  },
+"scripts": {
+  "ng": "node ./node_modules/@angular/cli/bin/ng.js",
+  "start": "ng serve",
+  "build": "ng build",
+  "build:prod": "ng build --configuration production"
+},
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.0.0",
